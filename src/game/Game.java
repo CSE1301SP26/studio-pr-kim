@@ -48,9 +48,8 @@ public class Game {
         enemyProjectiles.clear();
         playerProjectiles.clear();
         enemies.clear();
-        for(int i = 0; i < numberOfEnemies; i++) {
-            Enemy e = new Enemy();
-            enemies.add(e);
+        for (Enemy e : enemies) {
+
         }  
     }
 
